@@ -1,6 +1,6 @@
 # Employee Retention Predictor
 
-Employee Retention Predictor using Machine Learning and Streamlit.
+Employee Retention Predictor using Machine Learning and Streamlit
 
 ---
 
@@ -16,17 +16,28 @@ This project helps HR departments identify employees at risk of attrition and su
 * User-friendly Streamlit web interface
 * Displays employee risk level
 * Shows prediction confidence score
+* Provides HR recommendations
 
 ---
 
 ## 🛠️ Technologies Used
 * Python
 * Streamlit
-* Pandas / Scikit-learn
+* Pandas
+* Scikit-learn
+* Joblib
 
 ---
 
-## 💻 How to Run the Project
-1. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
+## 📂 Project Structure
+```text
+Employee-Retention-Predictor/
+├── app.py
+├── dataset/
+│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
+├── model/
+│   ├── employee_retention_model.pkl
+│   └── label_encoders.pkl
+├── requirements.txt
+└── README.md
+
