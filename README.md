@@ -42,3 +42,10 @@ Employee-Retention-Predictor/
 └── README.md
 
 
+👩‍💻 Author
+MohanaPriya A
+
+BCA – V Semester Internship Project
+
+T. John College, Bengaluru
+
